@@ -1,5 +1,4 @@
-PROYECTO Nº6
-Portafolio BootcampUDD
+PROYECTO Nº6 - Portafolio BootcampUDD
 Alumno: Federico González F.
 
 ![portfolio](https://github.com/Ocideref/project-6-portfolio/assets/109758909/6815b2b5-b682-49bc-a26e-4d19f1bd0b75)
