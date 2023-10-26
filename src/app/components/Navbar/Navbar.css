@@ -1,0 +1,33 @@
+
+.page-link {
+    color: white;
+    transition: .8 all;
+}
+
+.page-link:hover {
+    color: rgba(210,210,220,1);
+}
+
+a.spotify-icon, a.linkedin-icon, a.pinterest-icon, a.github-icon {
+    transition: 1s all;
+}
+
+a.spotify-icon:hover {
+    color: green;
+    transform: scale3d(1.1);
+}
+
+a.linkedin-icon:hover {
+    color: rgb(0, 136, 255);
+    transform: scale3d(1.1);
+}
+
+a.pinterest-icon:hover {
+    color: rgb(190, 38, 8);
+    transform: scale3d(1.1);
+}
+
+a.github-icon:hover {
+    color: rgb(249, 249, 249);
+    transform: scale3d(1.1);
+}
