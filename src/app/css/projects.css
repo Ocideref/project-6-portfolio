@@ -3,7 +3,7 @@
 }
 
 .visit-web {
-    transition: 1s all;
+    transition: .2s all;
     border: 1px solid transparent;
 }
 

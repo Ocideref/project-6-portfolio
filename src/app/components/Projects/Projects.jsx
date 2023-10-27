@@ -7,54 +7,56 @@ export default function CardWithDecorativeImage() {
   const projectsData = [
     {
       img: "/assets/images/pizzapizza-web.png",
-      url: "www.pizzapizza.cl/",
+      url: "https://pizzapizza.cl/",
       git: "https://github.com/",
       title: "PizzaPizza",
       type: "Ecommerce",
-      text: "Proyecto Ecommerce de PizzaPizza. Multiples funcionalidades customizadas como arma tu pedido a tu gusto y con multiples promociones todos los días. Encargado de administración y desarrollo del sitio.",
+      text: "PizzaPizza Ecommerce Project. Multiple customized functionalities to create your order to your liking and with diferent promotions every day. Responsible for administration and development of the site.",
+      language: "Proyecto Ecommerce de PizzaPizza. Multiples funcionalidades customizadas como arma tu pedido a tu gusto y con diferentes promociones todos los días. Encargado de administración y desarrollo del sitio.",
     },
     {
       img: "/assets/images/ces-web.png",
-      url: "www.circulodeespecialistas.cl/",
+      url: "https://circulodeespecialistas.cl/",
       git: "https://github.com/",
       title: "Circulo de Especialistas",
       type: "Landing Page and DataScience",
       text: "Campaña de Sodimac y loyalty de Falabella. Encargado de administración y desarrollo del sitio web CES.",
+      languaje: "Campaña de Sodimac y loyalty de Falabella. Encargado de administración y desarrollo del sitio web CES."
     },
     {
       img: "/assets/images/mifoto-web.png",
-      url: "www.mifoto.cl/",
+      url: "https://www.mifoto.cl/",
       git: "https://github.com/",
       title: "Mi Foto",
       type: "Ecommerce",
       text: "Ecommerce orientado a la fotografia e impresión. Customiza tu proyecto con un potente panel de edición. Encargado de integraciones y desarrollo de mejoras del sitio.",
     },
     {
-      img: "/assets/images/pizzapizza-web.png",
-      url: "www.mifotopro.cl/",
+      img: "/assets/images/mifotopro-web.png",
+      url: "https://www.mifotopro.cl/",
       git: "https://github.com/",
       title: "Mi Foto Pro",
       type: "Ecommerce",
       text: "Tienda online de camaras, drones y todas las variedades productos fotograficos que puedas imaginar. Encargado de diseño, desarrollo y administración del sitio.",
     },
     {
-      img: "/assets/images/pizzapizza-web.png",
-      url: "www.neumax.cl/",
+      img: "/assets/images/neumax-web.png",
+      url: "https://www.neumax.cl/",
       git: "https://github.com/",
       title: "Neumax",
       type: "Ecommerce",
       text: "Otro Ecommerce de grandes ventas por minutos. Basta experiencia en manejo de base de datos y distribuición de bodegas. Promociones customizadas de venta de productos agrupados y por lotes.",
     },
     {
-      img: "/assets/images/pizzapizza-web.png",
-      url: "/",
+      img: "/assets/images/bigmoto-web.png",
+      url: "https://www.bigmoto.cl/",
       git: "https://github.com/",
       title: "Bigmoto",
       type: "Ecommerce",
       text: "Otro Ecommerce de grandes ventas por minutos. Basta experiencia en manejo de base de datos y distribuición de bodegas. Promociones customizadas de venta de productos agrupados y por lotes.",
     },
     {
-      img: "/assets/images/pizzapizza-web.png",
+      img: "/assets/images/abuelo-web.png",
       url: "https://lacasadelabuelo.cl",
       git: "https://github.com/",
       title: "La Casa del Abuelo",
@@ -62,7 +64,7 @@ export default function CardWithDecorativeImage() {
       text: "Bienvenido a nuestra sencilla carta mobile. Nuestra aplicación está diseñada para hacer que la experiencia de los clientes de la casa del abuelo en río bueno puedan escanear un QR y ver el menú.",
     },
     {
-      img: "/assets/images/pizzapizza-web.png",
+      img: "/assets/images/greed-web.png",
       url: "https://greedtaproom.cl",
       git: "https://greedtaproom.cl",
       title: "Greed Brewing Co",
@@ -87,14 +89,14 @@ export default function CardWithDecorativeImage() {
               <h5 className="text-2xl font-bold tracking-tight text-white">
                 {p.title}
               </h5>
-              <h6 className="text-md font-medium tracking-tight text-blue">
+              <h6 className="text-md font-medium tracking-tight primary-color">
                 {p.type}
               </h6>
               <p className="font-light text-gray-400 text-sm mt-2">
                 {p.text}
               </p>
             </div>
-            <a href={p.url} className='text-right text-md'>
+            <a href={p.url} target="_blank" className='text-right text-md'>
               <button class="visit-web px-4 py-2">Visitar web</button>
             </a>
           </Card>

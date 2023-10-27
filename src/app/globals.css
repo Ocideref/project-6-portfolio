@@ -29,3 +29,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
 }
+
+.primary-color {
+  color: #32c0e8;
+}
