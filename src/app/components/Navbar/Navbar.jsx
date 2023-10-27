@@ -20,15 +20,16 @@ export const Navbar = () => {
             </nav>
 
             <nav className='flex items-center justify-between'>
-                <Link className='mr-4 page-link flex items-center justify-between' href="/about">
+                <Link className='mr-4 page-link flex items-center justify-between' href="/"> 
                     <Avatar
                         alt="avatar of Federrico"
                         img="../../assets/images/fede-avatar.png"
                         rounded
                         className='mr-3'
                     />
-                    About Me
+                    Home
                 </Link>
+                <Link className='mr-4 page-link' href="/about">About Me</Link>
                 <Link className='mr-4 page-link' href="/projects">Projects</Link>
                 <Link className='mr-4 page-link' href="/contact">Contact</Link>
                 <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center">
