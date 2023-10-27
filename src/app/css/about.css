@@ -1,0 +1,4 @@
+.container-image {
+    box-shadow: 2px 2px 8px rgba(100,100,100,.05);
+    border-radius: .5rem;
+}

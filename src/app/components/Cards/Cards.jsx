@@ -7,12 +7,12 @@ export const CardWithDecorativeImage = () => {
     const skillsImage = [
         "/assets/images/html.png",
         "/assets/images/ai.png",
-        "/assets/images/reactjs.png",
+        "/assets/images/xd.png",
         "/assets/images/css.png",
         "/assets/images/nextjs.png",
         "/assets/images/tailwind.png",
         "/assets/images/js.png",
-        "/assets/images/frameemotion.png",
+        "/assets/images/reactjs.png",
         "/assets/images/nodejs.png",
         "/assets/images/woocommerce.png",
         "/assets/images/mongodb.png",
@@ -28,9 +28,8 @@ export const CardWithDecorativeImage = () => {
           opacity: 1,
           scale: 1,
           transition: {
-            duration: 2,
+            duration: 1,
           },
-          
         },
     };
   
@@ -44,6 +43,7 @@ export const CardWithDecorativeImage = () => {
                     initial="initial"
                     animate="animate"
                     variants={leftInitial}
+                    whileHover={{ scale: 1.05 }}
                     >
                     <a className="flex" href="#">
                         <div className="p-4 container-image bg-white mb-4">

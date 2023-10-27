@@ -2,6 +2,7 @@ import React from 'react'
 import AboutImage from '@/app/components/Animations/AboutImage'
 import CardWithDecorativeImage from '@/app/components/Cards/Cards';
 import {Cloudinary} from "@cloudinary/url-gen";
+import '@/app/css/about.css'
 
 const App = () => {
   const cld = new Cloudinary({cloud: {cloudName: 'dn6shhlok'}});
